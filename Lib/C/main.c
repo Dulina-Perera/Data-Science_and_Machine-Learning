@@ -15,15 +15,22 @@ float rand_float(void) {
     return (float) rand() / (float) RAND_MAX;
 }
 
+float mse(float w) {
+    float err = 0.0f;
+    for (size_t i = 0; i < train_len; ++i) {
+        float y = train[i][0] * w;
+        float d = y - train[i][1];
+        err += d*d;
+    }
+    err /= train_len;
+    return err;
+}
+
 int main() {
     // srand(time(0));
     srand(69);
     float w = rand_float() * 10.0f;
-
-    for (size_t i = 0; i < train_len; ++i) {
-        float y = train[i][0] * w;
-        printf("actual: %f\npredicted: %f\n\n", train[i][1], y);
-    }
-
+    printf("Mean Squared Error: %f\n", mse(w));
+    
     return 0;
 }
