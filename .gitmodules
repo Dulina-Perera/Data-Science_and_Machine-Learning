@@ -1,3 +1,9 @@
+[submodule "CS3111-Coursework"]
+	path = CS3111-Coursework
+	url = ./CS3111-Coursework
+[submodule "CS3121-Coursework"]
+	path = CS3121-Coursework
+	url = ./CS3121-Coursework
 [submodule "Kaggle"]
 	path = Kaggle
 	url = ./Kaggle
