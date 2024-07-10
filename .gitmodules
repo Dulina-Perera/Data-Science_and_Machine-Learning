@@ -1,12 +1,12 @@
 [submodule "CS3111-Coursework"]
 	path = CS3111-Coursework
 	update = merge
-	url = https://github.com/Dulina-Perera/CS3111-Coursework.git
+	url = https://github.com/Pyrokryos/CS3111-Coursework.git
 [submodule "CS3121-Coursework"]
 	path = CS3121-Coursework
 	update = merge
-	url = https://github.com/Dulina-Perera/CS3121-Coursework.git
+	url = https://github.com/Pyrokryos/CS3121-Coursework.git
 [submodule "Kaggle"]
 	path = Kaggle
 	update = merge
-	url = https://github.com/Dulina-Perera/Kaggle.git
+	url = https://github.com/Pyrokryos/Kaggle.git
